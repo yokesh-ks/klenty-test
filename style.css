@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1,h3{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    color: #05034E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.section-1 .navbar .logo img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+button{
+    padding: 12px 16px;
+    background: #5856CE;
+    border-radius: 4px;
+    margin-left: 30px;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.section-1 .hero {
+    text-align: center;
+    padding: 85px 283px;
+}
+
+.section-1 .hero h1{
+    margin: 30px 188px 24px 188px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48.83px;
+    line-height: 68px;
+}
+
+.section-1 .hero p{
+    margin-bottom: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+}
+
+.section-1 .service{
+    display: flex;
+    padding: 0px 181px 78px 181px;
+    gap:203px
+}
+
+.section-1 .service .content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.section-1 .service .sub-service{
+    display: flex;
+    gap:20px;
+}
+
+
+.section-1 .service .content h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #05034E;
+    height: 54px;
+    display: flex;
+}
+
+.section-1 .service .content p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202020;
+}
+
+.section-2{
+    max-width: 1400px;
+    background-color: #F2F2FD;
+    padding: 80px 181px;
+    text-align: center;
+}
+
+.section-2 h3{
+    font-size: 31px;
+    line-height: 40px;
+}
+
+.section-2 .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.section-2 .feature .card{
+    background: white;
+    padding: 65px 147px;
+
+}
+
+.section-2 .feature .card .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-2 .feature .card .quote{
+    height: 30px;
+}
+
+.section-2 .feature .card p{
+    margin-top: 54px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #202020;
+}
+
+.section-2 .feature .card .profile{
+    margin-top: 35px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.section-2 .feature .card .profile img{
+    width: 60px;
+    height: 60px;
+}
+
+.section-2 .feature .card .profile .name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.section-2 .feature .card .profile .name h5{
+    color: #05034E;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+}
