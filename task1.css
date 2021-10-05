@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    height: 100vh;
+}
+
+.card {
+    width: 448px;
+    height: 324px;
+}
+
+.red{
+    position: relative;
+    background: #F43333;
+    margin-left: 156px;
+    margin-top: 167px;
+}
+
+.pink{
+    position: absolute;
+    background: #F133F4;
+    margin-left: 116px;
+    margin-top: 120px;
+}
+
+.blue{
+    position: absolute;
+    background: #3398F4;
+    margin-left: 108px;
+    margin-top: 98px;
+}
